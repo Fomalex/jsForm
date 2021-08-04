@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'NunitoBold';
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'NunitoBlack';
+    src: url("../fonts/Nunito-Black.ttf");
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #FFFFFB 50.3%, #F8F8FA 49.7%);
+    font-family: 'NunitoBold', sans-serif;
+}
+
+#logo {
+    margin-top: 27px;
+    text-align: center;
+}
+
+#logo a {
+    font-family: 'NunitoBlack', sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+#logo a:hover {
+    color: #D72F3F;
+}
+
+#logo a:active, #logo a:active span {
+    color: #be2a38;
+}
+
+#logo span {
+    color: #D72F3F;
+    font-size: 45px;
+}
+
+#main {
+    max-width: 1200px;
+    margin: 112px auto 191px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#main-form {
+    max-width: 452px;
+    margin-left: 63px;
+}
+
+#main-title {
+    font-size: 36px;
+    line-height: 49px;
+}
+
+#main-text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.input-name {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+.input input {
+    font-family: "NunitoBold", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    background: transparent;
+    outline: none;
+    border: 0;
+    width: 100%;
+    margin-top: 5px;
+    border-bottom: 1px solid #C6C6C4;
+}
+
+#main-checkbox {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#main-checkbox span {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+#main-action {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#btn {
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #DD3142;
+    border-radius: 40px;
+    width: 210px;
+    padding: 20px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background: #b82935;
+}
+
+#btn:active {
+    cursor: pointer;
+    background: #a0232d;
+}
+
+#main-question {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#main-question a {
+    color: #636363;
+    text-decoration: none;
+}
+
+#main-question a:hover {
+    color: #63636380;
+    cursor: pointer;
+}
+
+#main-question a:active {
+    color: #636363;
+    cursor: pointer;
+}
+
+#main-image {
+    width: 543px;
+    margin-right: 46px;
+    margin-top: 57px;
+}
+
+#main-image img {
+    max-width: 100%;
+}
+
